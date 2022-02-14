@@ -1,0 +1,89 @@
+p {
+	/*text-shadow: 5px 5px rgba(0, 0, 0, 0.3);*/
+	font-size: 20px;
+	font-family: 'Trebuchet MS', sans-serif;
+	/*font-family: 'Courier New', monospace;
+	/*font-family: Georgia, serif;*/
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: mistyrose;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: PaleGoldenRod;
+}
+
+embed {
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px 20px;
+}
+
+script {
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+button {
+	font-size: 15px;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-left: 150px;
+	/*margin-top: 30px;*/
+	margin-bottom: 30px;
+	background-color: transparent;
+	border: 2px solid mistyrose;
+	border-radius: 5px;
+	color: mistyrose;
+	/*box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px 5px;*/
+}
+
+button:hover {
+	background-color: mistyrose;
+}
+
+#next-link {
+	color: mistyrose;
+	text-decoration: none;
+}
+
+/*
+#prize-gist {
+	display: none;
+}
+*/
+
+/* gradient backgrounds */
+
+#non-prize {
+	background: linear-gradient(-45deg, #632231, #632255);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+	height: 100vh;
+}
+
+#prize {
+	background: linear-gradient(-45deg, #d90f31, #d90f85);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
