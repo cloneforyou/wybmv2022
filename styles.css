@@ -32,6 +32,13 @@ script {
 	margin-bottom: 30px;
 }
 
+img {
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px 20px;
+}
+
 button {
 	font-size: 15px;
 	font-family: 'Trebuchet MS', sans-serif;
@@ -53,12 +60,6 @@ button:hover {
 	color: mistyrose;
 	text-decoration: none;
 }
-
-/*
-#prize-gist {
-	display: none;
-}
-*/
 
 /* gradient backgrounds */
 
